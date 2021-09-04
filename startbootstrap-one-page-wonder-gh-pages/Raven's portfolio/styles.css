@@ -1,0 +1,135 @@
+/* background color for page */
+body {
+    background-color: #ca9e7b;
+}
+
+/* picture card for portfolio picture */
+.picture_card {
+    position: relative;
+    top: 40px;
+    left: 750px;
+    height: 571px;
+    width: 483px;
+    background-color: #98684f;
+    border-radius: 8px;
+}
+
+/* my portfolio picture */
+.picture {
+    position:relative;
+    padding: 23px 0px 0px 23px; /* top right bottom left */
+    height: 550px;
+    width: 460px;
+}
+
+/* background of my name */
+.portfolio_heading {
+    /* background-color: rgb(245, 235, 220); */
+    background-color: wheat;
+    opacity: 100%;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 500px;
+    height: 145px;
+}
+
+/* my name text */
+.studentname {
+    /* font-family: 'Cinzel Decorative', cursive; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /* padding-top: 5px; */
+    font-size: 80px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+/* background of the bottom section */
+.portfolio_bdy {
+    background-color: #66462f; 
+    padding-top: 60px;
+    position: relative;
+    top: 70px;
+    border-top: 3px solid wheat;
+    padding-bottom: 280px;
+}
+.aboutmetitle, .skillstools, .worktitle, .job1, .projectstitle {
+    text-align: center;
+}
+
+/* about me section */
+.aboutmesection, .skills, .worksection {
+    /* background-color: rgb(245, 235, 220); */
+    background-color: wheat;
+    position: relative;
+    width: 40%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+.projects {
+    background-color: wheat;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aboutmetitle {
+    padding-bottom:15px;
+    padding-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+.aboutmetitle:before {
+    content: "";
+    left: 175px;
+    margin: auto;
+    bottom: 0;
+    width: 40%;
+    position: absolute;
+    border-bottom: 3px solid black;
+}
+.aboutmedescription {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    text-align: center;
+}
+.skills {
+    top: 70px;
+}
+.worksection {
+    top: 140px;
+
+}
+.projects {
+    top: 210px;
+}
+
+/* card deck */
+.card-deck {
+    width:auto;
+    height: 50%;
+}
+.card-deck1 {
+    width:40%;
+    height: 10%;
+    margin: auto; 
+}
+p {
+    text-align: center;
+}
+
+
+
+
+/*
+e9cba7
+ca9e7b - used for background
+98684f - use for below the top
+66462f
+wheat - too light, too yellow
