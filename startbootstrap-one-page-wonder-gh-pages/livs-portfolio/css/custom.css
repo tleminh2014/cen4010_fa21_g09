@@ -1,0 +1,99 @@
+.wrapper{
+  width:1400px;
+  margin:0 auto;
+  color: black;
+  
+}
+.portfolio-thumbnail{
+  float:left;
+  width:40%;
+  border:3px solid lightgray;
+  border-style: outset; 
+  border-radius: 15px;
+  box-sizing: border-box;
+  position:relative;
+  background: lightyellow;
+
+}
+
+.portfolio-thumbnail img{
+  max-width:100%;
+    margin: auto;
+}
+
+.portfolio-thumbnail2{
+  float:left;
+  width:40%;
+  border:3px solid lightgray;
+  border-radius: 15px;
+  border-style: outset; 
+  box-sizing: border-box;
+  position:relative;
+  background: lightblue;
+}
+
+.portfolio-thumbnail2 img{
+  max-width:100%;
+    margin: auto;
+    
+}
+
+
+
+.text {
+	position: absolute;
+	font-family: "Work Sans";
+	font-size:25px;
+    vertical-align: middle;
+    line-height: 200em;
+	font-style: bold;
+	color: gray;
+	background-color:rgba(150,223,255,0.7);
+	width: 100%;
+	line-height:50px;
+	text-align: left;
+	z-index:10;
+	opacity: 0;
+  display:block;
+  height:100%;
+  overflow: hidden;
+	 -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    }
+
+.text2 {
+	position: absolute;
+	font-family: "Work Sans";
+	font-size:30px;
+	font-style: bold;
+	color: gray;
+	background-color:lightyellow;
+	width: 100%;
+	line-height:50px;
+	text-align: right;
+	opacity: 0;
+  display:block;
+  height:100%;
+  overflow: hidden;
+	 -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    }
+
+
+
+
+
+
+    
+    
+.text:hover {
+	opacity:1;
+}
+
+.text2:hover {
+	opacity:1;
+}

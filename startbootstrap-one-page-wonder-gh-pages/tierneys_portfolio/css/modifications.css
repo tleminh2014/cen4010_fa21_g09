@@ -1,0 +1,73 @@
+#rounded {
+  border-radius: 50%;
+}
+
+
+#one{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+    
+}
+
+
+#two{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+}
+
+
+#three{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+}
+
+#four{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+}
+
+#five{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+}
+
+#six{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+}
+
+
+.paracenter{
+    text-align: center;
+}
+
+#links {
+  column-count: 3;
+  column-fill: balance;
+  text-align: center;
+}
+
+#buildown{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#hw1{
+    align-content: left;
+}
+
+#hw2{
+    align-content: right;
+}
