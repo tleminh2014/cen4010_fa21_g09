@@ -1,9 +1,9 @@
 <?php            
     //host specific to the XAMPP PHPmyadmin site
-    $host = "localhost:3307";
-    $user = "root";
-    $password = "";
-    $db = "test";
+    $host = "localhost";
+    $user = "tleminh2012";
+    $password = "lemonzing2012!";
+    $db = "tleminh2012";
     
     $con = mysqli_connect($host, $user, $password, $db);
     
