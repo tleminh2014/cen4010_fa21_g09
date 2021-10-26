@@ -24,31 +24,81 @@ Bethlyn Joseph - *bethlynjosep2019\@fau.edu*
 
 Olivia Razzo - *Orazzo2019\@fau.edu*
 
-Kevin Young - *kevinyoung2018\@fau.edu*
+Kevin Young -
+[*[kevinyoung2018\@fau.edu]{.ul}*](mailto:kevinyoung2018@fau.edu)
+
+# Vertical prototype: Account creation - Registration
+
+-   Link to vertical prototype:
+
+    -   [[https://lamp.cse.fau.edu/\~cen4010_fa21_g09/vert_prot/registerfinal.php]{.ul}](https://lamp.cse.fau.edu/~cen4010_fa21_g09/vert_prot/registerfinal.php)
+
+-   Features implemented
+
+    -   Account creation with error checking
+
+        -   Username can include numbers, special characters, and
+            > letters
+
+        -   Name can only consist of letters and/or white space
+
+        -   Only valid email format is allowed
+
+        -   Passwords must be at least 8 characters long, including at
+            > least one number, letter, and caps.
+
+    -   All fields are required
+
+        -   If any fields are empty when user submits, error will be
+            > returned, account cannot be created
+
+    -   User login
+
+        -   User can log in using same credentials during registration
+
+            -   They will be redirected to a simple dashboard,
+                > displaying their username
+
+-   Functionality enhancements in next sprint
+
+    -   Email verification functionality
+
+    -   Error checking for re-entering password correctly
 
 # [Table of Contents]{.ul}
 
-**[Table of Contents](#table-of-contents) 2**
+**[Vertical prototype: Account creation -
+Registration](#vertical-prototype-account-creation---registration) 2**
 
-**[Executive Summary](#executive-summary) 3**
+**[Table of Contents](#table-of-contents) 3**
 
-**[Overview and Use Cases](#overview-and-use-cases) 4**
+**[Executive Summary](#executive-summary) 4**
 
-**[Data Definitions](#data-definitions) 10**
+**[Overview and Use Cases](#overview-and-use-cases) 5**
+
+**[Data Definitions](#data-definitions) 11**
 
 **[List of High-Level Functional
-Specifications](#list-of-high-level-functional-specifications) 11**
+Specifications](#list-of-high-level-functional-specifications) 13**
 
 **[List of Non-Functional
-Specifications](#list-of-non-functional-specifications) 13**
+Specifications](#list-of-non-functional-specifications) 16**
 
-**[High-Level System
-Architecture](#high-level-system-architecture-and-database-organization)
-14**
+**[High-Level System Architecture and Database
+Organization](#high-level-system-architecture-and-database-organization)
+17**
 
-**[Competitive Analysis](#competitive-analysis) 16**
+**[Use-case Diagram](#use-case-diagram) 23**
 
-**[Team Roles](#team-roles) 24**
+**[Component and Deployment Diagram](#component-and-deployment-diagram)
+24**
+
+**[Identify key risks for your project at this
+time](#identify-key-risks-for-your-project-at-this-time) 25**
+
+**[Competitive Analysis](#competitive-analysis) 26**
+
+**[Team Roles](#team-roles) 33**
 
 # Executive Summary
 
@@ -1098,7 +1148,7 @@ Identify actual key risks for your project at this time
 
 # Use-case Diagram
 
-# ![](media/image4.png){width="6.03125in" height="4.489583333333333in"}
+# ![](media/image3.png){width="6.03125in" height="4.489583333333333in"}
 
 # 
 
@@ -1118,7 +1168,7 @@ Identify actual key risks for your project at this time
 
 # Component and Deployment Diagram
 
-![](media/image3.png){width="6.5in" height="5.111111111111111in"}
+![](media/image4.png){width="6.5in" height="5.111111111111111in"}
 
 # 
 
@@ -1127,15 +1177,18 @@ Identify actual key risks for your project at this time
 # Identify key risks for your project at this time
 
 1\. For specific risks, this would also be learning new frameworks and
-working a lot with jQuery can be a negative for me. I am very
-knowledgeable in HTML, C++, and Python to help assist any background
-issues.
+working a lot with jQuery can be a challenge for the team members who
+may not have worked with it in the past. Many teammates are
+knowledgeable in HTML, C++, and Python to help assist any frontend and
+backend issues. Team integration and catching everyone up to speed with
+newly added code they had not directly worked on can also be a
+challenge.
 
-2\. Scheduling risks for our team would be gathering information as a
-whole and also keeping up with each other\'s progress and can create lag
-time while creating our website.
+2\. Scheduling risks for our team would be gathering information about
+team progress, maintaining momentum during tight deadlines can create
+lag time while creating our website.
 
-3\. For technical risks, I say the most common issue to come upon when
+3\. For technical risks, the most common issue to come upon when
 creating the website would be trying to solve each other's code and fix
 up any issues someone else created. The reason why would be because
 since the communication is minimal, another user will try to edit the
@@ -1144,15 +1197,21 @@ there isn't. This can cause complications for the code written already
 and mess up a lot of the data created. Another issue would be how each
 person on the team applies their coding knowledge. If someone isn't too
 familiar with a certain language, this can cause complications with
-completion time for the website.
+completion time for the website. For example, someone who is extremely
+comfortable with writing PHP code may need to catch another, less
+experienced, teammate on what the code means and how changes can be
+applied without disrupting the established functionality
 
 4\. Teamwork risks will imply lack of communication and assisting each
 other throughout the coding process. This can cause major slow down time
 for completion.
 
-5\. I believe the only issue with copyright would be obtaining pictures
-and videos for our project. We would need to be able to get content
-without illegally applying it to our website.
+5\. The only issue with copyright would be obtaining pictures and videos
+for our project. We would need to be able to get content without
+illegally applying it to our website. Another legal risk is utilizing
+open-source resources like libraries and frameworks, and style designs.
+We will need to ensure all of our code follows does not coincide with
+any copyrighted content.
 
 # Competitive Analysis
 
