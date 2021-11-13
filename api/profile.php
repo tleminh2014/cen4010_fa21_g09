@@ -2,13 +2,17 @@
 //include auth_session.php file on all user panel pages
 include("auth_session.php");
 include("header.php");
+include("vars.php");
 ?>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>User profile - Client area</title>
+</head>
 
 <body>
     <?php
-    require('db.php');
+    // require('db.php');
     $nameErr = $dobErr = $preferenceErr = $pronounsErr = "";
 
     if (isset($_POST['edit'])) {
@@ -80,9 +84,12 @@ include("header.php");
         }
     }
     ?>
-    <div class="form">
-        <h1 class="login-title">Edit your profile</h1>
+    <div class="container">
         <form class="form" action="" method="post">
+            <h1 class="display-4">Edit your profile</h1>
+            <div class="text-center">
+                <img class="rounded" src="images/<?php echo $row["user_image"]; ?>" style="height: 200px;">
+            </div>
             <label for="name" class="control-label">Name</label>
             <input class="form-control" type="text" name="name" placeholder="<?php echo $name ?>">
             <div class="form-group">
@@ -100,7 +107,7 @@ include("header.php");
             </select>
 
             <label for="preference" class="control-label">Preference:</label>
-            <select id="preference" name="preference">
+            <select class="form-control" id="preference" name="preference">
                 <option><?php echo $preference ?></option>
                 <option>Women</option>
                 <option>Men</option>
@@ -108,20 +115,21 @@ include("header.php");
             </select>
 
             <label for="genres" class="control-label">Favorite genre:</label>
-            <select id="genres" name="genres">
+            <select class="form-control" id="genres" name="genres">
                 <option><?php echo $genres ?></option>
                 <option>Tower Defense</option>
                 <option>MOBA</option>
             </select>
 
             <label for="games" class="control-label">Favorite game:</label>
-            <select id="games" name="games">
+            <select class="form-control" id="games" name="games">
                 <option><?php echo $games ?></option>
                 <option>League of Legends</option>
                 <option>Starcraft</option>
-            </select>
-
-            <input type="submit" name="edit">
+            </select> <br>
+            <div class="text-center">
+                <input class="btn btn-primary btn-md" type="submit" name="edit">
+            </div>
 
         </form>
     </div>
