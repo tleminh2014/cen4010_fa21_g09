@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>Login page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <nav class="navbar navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="dashboard.php">LAN Party</a>
         <form class="d-flex">
-            <a class="btn btn-primary btn-md" href="logout.php" style="margin-right: 10px;">Logout</a>
+            <a class="btn btn-primary btn-md" href="registrationfinal.php" style="margin-right: 10px;">Signup</a>
         </form>
     </div>
 </nav>
@@ -28,9 +28,10 @@
         $result = mysqli_query($con, $query) or die(mysqli_error($con));
         $rows = mysqli_num_rows($result);
         if ($rows == 1) {
-            $_SESSION['username'] = $username;
+            $_SESSION["id"] = $id;
+            $_SESSION["is_active"] = 1;
             // Redirect to user dashboard page
-            header("Location: dashboard.php");
+            header("Location: home.php");
         } else {
             echo "<div class='form'>
                   <h3>Incorrect Username/password.</h3><br/>
@@ -44,7 +45,7 @@
         <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
         <input type="password" class="login-input" name="password" placeholder="Password"/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link"><a href="registration.php">New Registration</a></p>
+        <p class="link"><a href="registrationfinal.php">New Registration</a></p>
   </form>
 <?php
     }
