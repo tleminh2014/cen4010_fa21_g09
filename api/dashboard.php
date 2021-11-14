@@ -11,11 +11,12 @@ $result = mysqli_query($con, $getAllUsers);
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
+    <!-- <meta charset="utf-8">
+    <title>Dashboard - Client area</title>
+    <link rel="stylesheet" href="css/style.css" /> -->
     <title>Dashboard</title>
 </head>
-
 <body>
     <div class="container-fluid">
         <div class="container">
@@ -50,5 +51,4 @@ $result = mysqli_query($con, $getAllUsers);
         </div>
     </div>
 </body>
-
 </html>
