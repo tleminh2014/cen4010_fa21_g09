@@ -1,39 +1,51 @@
 body {
-    background: #3e4144;
-}
-.form {
+    background: rgb(135, 173, 245);
+  }
+  .form {
     margin: 50px auto;
     width: 300px;
     padding: 30px 25px;
-    background: white;
-}
-.home-form {
+    background: rgb(178, 196, 240);
+  }
+  .home-form {
     text-align: center;
     margin: 50px auto;
     width: 300px;
-}
-h1.login-title {
-    color: #666;
+  }
+  h1.login-title {
+    color: rgb(43, 40, 40);
     margin: 0px auto 25px;
     font-size: 25px;
     font-weight: 300;
     text-align: center;
-}
-.login-input {
+  }
+  .container-fluid {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .container .form .text-center img{
+    margin: 50px 0px 50px 0px;
+  }
+  
+  .rounded {
+    margin: 50px 0px 50px 0px;
+  }
+  .login-input {
     font-size: 15px;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 25px;
     height: 25px;
     width: calc(100% - 23px);
-}
-.login-input:focus {
+  }
+  .login-input:focus {
     border-color:#6e8095;
     outline: none;
-}
-.login-button {
+  }
+  .login-button {
     color: #fff;
-    background: #55a1ff;
+    background: #274468;
     border: 0;
     outline: 0;
     width: 100%;
@@ -41,17 +53,17 @@ h1.login-title {
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-}
-.link {
-    color: #666;
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 0px;
-}
-.link a {
-    color: #666;
-}
-h3 {
+  }
+  
+  h3 {
     font-weight: normal;
     text-align: center;
-}
+  }
+  .shadow-sm {
+    border: 1px solid #8e8f91;
+    margin-bottom: 10px;
+  }
+  .card-body {
+    background: rgb(178, 196, 240);
+  
+  }
