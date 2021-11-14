@@ -1,5 +1,5 @@
 <?php            
-    //host specific to the LAMP PHPmyadmin site, will not work on localhost!!!
+    //host specific to the XAMPP PHPmyadmin site
     $host = "localhost";
     $user = "root";
     $password = "Goowls2022!";
