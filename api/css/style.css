@@ -67,3 +67,75 @@ body {
     background: rgb(178, 196, 240);
   
   }
+
+  /* this gets rid of the dropdown menu arrow that appears after the icon in the nav bar */
+.dropdown-toggle::after {
+  content: none;
+}
+
+/* style for the icon buttons in the nav bar*/
+.dropdown-toggle {
+  /* get rid of border outline and background color */
+  border: none;
+  background: transparent;
+}
+
+i {
+  width: 40px; /* space between the icons in the nav bar*/
+}
+
+.icon-bar i:hover {
+  background-color: lightgrey;
+}
+
+/* .icon-bar i:active {
+  background-color: blue;
+}   */
+
+/* bell icon in the nav bar */
+.fa fa-bell {
+  position: relative; /* allow to move the icon to the right of the nav bar*/
+  display: flex;
+  align-items: center; /* allows the icon to be in the center horizontally/vertically */
+  justify-content: center;
+  /* width: 50%; */
+  /* height: 50%; */
+  border: none;
+  outline: none;
+  /* border-radius: 50%; */
+  /* font-size: 120px; */
+  
+}
+
+/* badge for the icons in nav bar */
+.bell_badge {
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 1px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display:none;
+  /* position: absolute; */
+  /* top: 10px; */
+  /* right: -1px; */
+  /* background: red; */
+  /* color: white; */
+  /* height: 20px; */
+  /* width: 20px; */
+  /* display: flex;
+  
+  border-radius: 50%; */
+}
+
+.nav-link {
+  border: none;
+  /* outline: none; */
+  background: none;
+}
