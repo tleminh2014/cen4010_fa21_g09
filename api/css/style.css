@@ -68,6 +68,7 @@ body {
   
   }
 
+  /* header.php */
   /* this gets rid of the dropdown menu arrow that appears after the icon in the nav bar */
 .dropdown-toggle::after {
   content: none;
@@ -80,22 +81,25 @@ body {
   background: transparent;
 }
 
+/* spacing between icons in nav bar */
 i {
   width: 40px; /* space between the icons in the nav bar*/
 }
 
+/* when pointer hovers over the icons in the nav bar*/
 .icon-bar i:hover {
   background-color: lightgrey;
 }
 
-/* .icon-bar i:active {
-  background-color: blue;
-}   */
+/* shifts over dropdown menu to the left from being close to edge */
+.dropdown-menu {
+  margin-right: 5px;
+}
 
 /* bell icon in the nav bar */
-.fa fa-bell {
-  position: relative; /* allow to move the icon to the right of the nav bar*/
-  display: flex;
+.fa {
+  /*position: relative;*/ /* allow to move the icon to the right of the nav bar*/
+  /* display: flex; */
   align-items: center; /* allows the icon to be in the center horizontally/vertically */
   justify-content: center;
   /* width: 50%; */
@@ -109,19 +113,19 @@ i {
 
 /* badge for the icons in nav bar */
 .bell_badge {
-  position: absolute;
-  top: -1px;
-  right: 1px;
+  position: relative;
+  top: -10px;
+  right: 12px;
   padding: 1px 10px;
   border-radius: 50%;
   background-color: red;
   color: white;
-  display: flex;
-  height: auto;
-  width: auto;
+  /* display: flex; */
+  /* height: auto; */
+  /* width: auto; */
   justify-content: center;
   align-items: center;
-  display:none;
+  /* display:none; */
   /* position: absolute; */
   /* top: 10px; */
   /* right: -1px; */
@@ -134,8 +138,14 @@ i {
   border-radius: 50%; */
 }
 
+/* set color of the status dot for new notifications */
+.fas {
+  color: blue;
+}
+
+/* style for nav link (nav bar) */
 .nav-link {
   border: none;
-  /* outline: none; */
   background: none;
 }
+
