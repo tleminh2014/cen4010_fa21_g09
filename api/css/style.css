@@ -1,72 +1,72 @@
 body {
-    background: rgb(135, 173, 245);
-  }
-  .form {
-    margin: 50px auto;
-    width: 300px;
-    padding: 30px 25px;
-    background: rgb(178, 196, 240);
-  }
-  .home-form {
-    text-align: center;
-    margin: 50px auto;
-    width: 300px;
-  }
-  h1.login-title {
-    color: rgb(43, 40, 40);
-    margin: 0px auto 25px;
-    font-size: 25px;
-    font-weight: 300;
-    text-align: center;
-  }
-  .container-fluid {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .container .form .text-center img{
-    margin: 50px 0px 50px 0px;
-  }
-  
-  .rounded {
-    margin: 50px 0px 50px 0px;
-  }
-  .login-input {
-    font-size: 15px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 25px;
-    height: 25px;
-    width: calc(100% - 23px);
-  }
-  .login-input:focus {
-    border-color:#6e8095;
-    outline: none;
-  }
-  .login-button {
-    color: #fff;
-    background: #274468;
-    border: 0;
-    outline: 0;
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  h3 {
-    font-weight: normal;
-    text-align: center;
-  }
-  .shadow-sm {
-    border: 1px solid #8e8f91;
-    margin-bottom: 10px;
-  }
-  .card-body {
-    background: rgb(178, 196, 240);
-  
-  }
+  background: rgb(135, 173, 245);
+}
+.form {
+  margin: 50px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: rgb(178, 196, 240);
+}
+.home-form {
+  text-align: center;
+  margin: 50px auto;
+  width: 300px;
+}
+h1.login-title {
+  color: rgb(43, 40, 40);
+  margin: 0px auto 25px;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.container-fluid {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container .form .text-center img{
+  margin: 50px 0px 50px 0px;
+}
+
+.rounded {
+  margin: 50px 0px 50px 0px;
+}
+.login-input {
+  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 25px;
+  height: 25px;
+  width: calc(100% - 23px);
+}
+.login-input:focus {
+  border-color:#6e8095;
+  outline: none;
+}
+.login-button {
+  color: #fff;
+  background: #274468;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+h3 {
+  font-weight: normal;
+  text-align: center;
+}
+.shadow-sm {
+  border: 1px solid #8e8f91;
+  margin-bottom: 10px;
+}
+.card-body {
+  background: rgb(178, 196, 240);
+
+}
 
   /* header.php */
   /* this gets rid of the dropdown menu arrow that appears after the icon in the nav bar */
@@ -139,8 +139,11 @@ i {
 }
 
 /* set color of the status dot for new notifications */
-.fas {
+.i {
   color: blue;
+}
+.i:hover {
+  color: grey;
 }
 
 /* style for nav link (nav bar) */

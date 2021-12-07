@@ -12,7 +12,8 @@
       <!-- my CSS file -->
       <link rel="stylesheet" href="css/style.css ">
 
-        <!-- Add icon library -->
+      <!-- Add icon library -->
+      <script src="https://kit.fontawesome.com/67c6af2bf9.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -28,17 +29,17 @@
             <li class="nav-item dropdown">
               <button class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" type="button"><i class="fa fa-bell fa-lg"></i><span class="bell_badge">!</span></button>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You matched with _. Click to start chatting now.</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You matched with _. Click to start chatting now.</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You matched with _. Click to start chatting now.</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You matched with another user. Click to start chatting now.</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You matched with another user. Click to start chatting now.</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You matched with another user. Click to start chatting now.</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <button class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" type="button"><i class="fa fa-comments fa-lg"></i><span class="bell_badge">!</span></button>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">test message</a></li>
-                <li><a class="dropdown-item" href="#">test message</a></li>
-                <li><a class="dropdown-item" href="#">test message</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You got a message from a user.</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs" style="font-size: 0.5rem;"></i>You got a message from a user.</a></li>
+                <!-- <li><a class="dropdown-item" href="#">You got a message from a user.</a></li> -->
               </ul>
             </li>
             <li class="nav-item">
